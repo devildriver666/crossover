@@ -1,0 +1,23 @@
+PODS:
+  - CreditCardValidator (0.3.2)
+  - GoogleMaps (2.1.1):
+    - GoogleMaps/Maps (= 2.1.1)
+  - GoogleMaps/Base (2.1.1)
+  - GoogleMaps/Maps (2.1.1):
+    - GoogleMaps/Base
+  - GooglePlaces (2.1.1):
+    - GoogleMaps/Base (= 2.1.1)
+
+DEPENDENCIES:
+  - CreditCardValidator
+  - GoogleMaps
+  - GooglePlaces
+
+SPEC CHECKSUMS:
+  CreditCardValidator: f2e0fc0f273e3f303513d35745df23d336eb1d67
+  GoogleMaps: a5b5bbe47734e2443bde781a6aa64e69fdb6d785
+  GooglePlaces: 35636d86e5020cba3856eb988c09a5491de0a65a
+
+PODFILE CHECKSUM: 65e8fa0f7b243584c48e56963c15acc31dfa0b76
+
+COCOAPODS: 1.1.1

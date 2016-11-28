@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EF0F6A7E4F253350D767E0DFA914291 /* Pods-CrossOverTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52F52A128F6C61A855D176CE04452F81 /* Pods-CrossOverTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30B6C8734E9498A67E9F44913C428A5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		33D2A5D6FC5091A34D5E83017E78DD07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		606BAE40990ACAB42D76DFE61C829702 /* CreditCardValidationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9BE371EBF18A48F773815568323FE5 /* CreditCardValidationType.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A98AA1C5FA43E2090F72CB71D5E500A5 /* Pods-CrossOverTestTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FAFF8024696220B4A57D187E333A33 /* Pods-CrossOverTestTests-dummy.m */; };
+		BD9C21082AC4568F0966B3A16F47381F /* Pods-CrossOverTestTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2F03E946DCEEAB22663C3DCBC37BE62 /* Pods-CrossOverTestTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D47B4DD7492B334977FD0DA39D6C2C87 /* CreditCardValidator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42E78B0F200B58A85640FA64CBC40A98 /* CreditCardValidator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4CEC74B1F948C14564CB3C81B795A80 /* Pods-CrossOverTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F1556614EB6FF87436D2395B87377B /* Pods-CrossOverTest-dummy.m */; };
+		E3925EDFF1A6A896FFCA3EAA3830A343 /* CreditCardValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA636F759E50DC7B2C5E60C908DE36E8 /* CreditCardValidator.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EC4318D7D9B53CC37DC981DC9023B4E7 /* CreditCardValidator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8388EB188800661268772405BAA809 /* CreditCardValidator-dummy.m */; };
+		FCC61FC1857FDC548B8B7239096A953A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30C9853F121E5E0205462FD18B856BF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06DACF8DBF00078CC427153B4F5DE848;
+			remoteInfo = CreditCardValidator;
+		};
+		E08F5B1766742C820B5DFE591D1F80DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06DACF8DBF00078CC427153B4F5DE848;
+			remoteInfo = CreditCardValidator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03F1556614EB6FF87436D2395B87377B /* Pods-CrossOverTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CrossOverTest-dummy.m"; sourceTree = "<group>"; };
+		0A9BE371EBF18A48F773815568323FE5 /* CreditCardValidationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CreditCardValidationType.swift; path = CreditCardValidator/CreditCardValidationType.swift; sourceTree = "<group>"; };
+		1C82DD70BC9C082BE152BF00EE4D6B58 /* Pods-CrossOverTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CrossOverTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		1C9A6EA6822FAB7794F4AF059CD02859 /* Pods-CrossOverTestTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CrossOverTestTests.modulemap"; sourceTree = "<group>"; };
+		22C76AC5B4B839F4D18DDB02F579CE8F /* Pods-CrossOverTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CrossOverTest.release.xcconfig"; sourceTree = "<group>"; };
+		315DB39FA809E2184ED375025BD5BFB2 /* Pods-CrossOverTestTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CrossOverTestTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3205EB26F38A8F0CD1B8A6105CD970C3 /* Pods-CrossOverTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CrossOverTest-resources.sh"; sourceTree = "<group>"; };
+		390D51EB101F74E855BE0C36C9BB114C /* Pods-CrossOverTestTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CrossOverTestTests-resources.sh"; sourceTree = "<group>"; };
+		3A3ED3A1F08420AECE8B2D3A360D4A58 /* Pods-CrossOverTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CrossOverTest.modulemap"; sourceTree = "<group>"; };
+		3C882FAB9CD3DAE52BB55EE58546ACD3 /* CreditCardValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CreditCardValidator.framework; path = CreditCardValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42E78B0F200B58A85640FA64CBC40A98 /* CreditCardValidator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CreditCardValidator-umbrella.h"; sourceTree = "<group>"; };
+		52F52A128F6C61A855D176CE04452F81 /* Pods-CrossOverTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CrossOverTest-umbrella.h"; sourceTree = "<group>"; };
+		66F4F15E26BB8F406E78AF510C30B9AF /* Pods-CrossOverTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CrossOverTest.debug.xcconfig"; sourceTree = "<group>"; };
+		786BDD6866109FEF3F59CE88AC647AA4 /* Pods_CrossOverTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CrossOverTest.framework; path = "Pods-CrossOverTest.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D4CB056A66CF0BBF4D603AB345660F9 /* Pods-CrossOverTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CrossOverTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7EFFE876B01FE4B2A4F5553A5EE960D6 /* CreditCardValidator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CreditCardValidator-prefix.pch"; sourceTree = "<group>"; };
+		91ED18C2B36CBE6D4EBD350EB396559B /* Pods-CrossOverTestTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CrossOverTestTests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98AEA3B491B0AE870D1AA2817E9A0647 /* Pods-CrossOverTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CrossOverTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA636F759E50DC7B2C5E60C908DE36E8 /* CreditCardValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CreditCardValidator.swift; path = CreditCardValidator/CreditCardValidator.swift; sourceTree = "<group>"; };
+		BAF3F2B3486640F982B6DC90888D6835 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		BE7E0147FAD72BEEA03BD4DA835BF7CA /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		BEB31992BDAAA177D5E54BC721E3CE45 /* Pods_CrossOverTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CrossOverTestTests.framework; path = "Pods-CrossOverTestTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEED6974413C24F2C13FD92FF5481482 /* Pods-CrossOverTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CrossOverTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CEB2DD5CA4A8BF07072145D416A276B4 /* Pods-CrossOverTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CrossOverTest-frameworks.sh"; sourceTree = "<group>"; };
+		D2AEC14403964BF2E0DC907820367DD3 /* CreditCardValidator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CreditCardValidator.modulemap; sourceTree = "<group>"; };
+		D2F03E946DCEEAB22663C3DCBC37BE62 /* Pods-CrossOverTestTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CrossOverTestTests-umbrella.h"; sourceTree = "<group>"; };
+		DE7615CF258C2B71714B6B5AD18B963B /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		E3FAFF8024696220B4A57D187E333A33 /* Pods-CrossOverTestTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CrossOverTestTests-dummy.m"; sourceTree = "<group>"; };
+		E4C552A1DB8CD9910212DEF53F55EB71 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		E55D1472956999881EB380870F07BE0C /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		EB8388EB188800661268772405BAA809 /* CreditCardValidator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CreditCardValidator-dummy.m"; sourceTree = "<group>"; };
+		ECF7B5BE3008369C5BA6C9CB784A788B /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		F27A584DC99A8F9F9D122964102CFA55 /* Pods-CrossOverTestTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CrossOverTestTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F5C85AF492222AF3BFAECFCF497336FD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8F9DD826C37BD2F1F54908976CD587C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA94E36702D53FDD137B1240FA4E074A /* CreditCardValidator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CreditCardValidator.xcconfig; sourceTree = "<group>"; };
+		FFD3CCBFA45F2B3ADDD24C58C82EB132 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		551A5E06039828CCCEB1D9C55AD3254F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D2A5D6FC5091A34D5E83017E78DD07 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C954A796CFEA5E9944C59F852C549E06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC61FC1857FDC548B8B7239096A953A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA122899EC84F2D79DDB7C971871DF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30B6C8734E9498A67E9F44913C428A5C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		026CB8EC26458D7F90FB78D0C760E7B8 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D5928937E3BFA54E39667CC407E2F2DE /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		34B2BBBB92BD4A49254E303E8CFE0E06 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				392D4CA9CF6BA3351524412F69CCEFB4 /* Pods-CrossOverTest */,
+				F97BFEDEB20280C792C5143BF5209E14 /* Pods-CrossOverTestTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		392D4CA9CF6BA3351524412F69CCEFB4 /* Pods-CrossOverTest */ = {
+			isa = PBXGroup;
+			children = (
+				F5C85AF492222AF3BFAECFCF497336FD /* Info.plist */,
+				3A3ED3A1F08420AECE8B2D3A360D4A58 /* Pods-CrossOverTest.modulemap */,
+				7D4CB056A66CF0BBF4D603AB345660F9 /* Pods-CrossOverTest-acknowledgements.markdown */,
+				BEED6974413C24F2C13FD92FF5481482 /* Pods-CrossOverTest-acknowledgements.plist */,
+				03F1556614EB6FF87436D2395B87377B /* Pods-CrossOverTest-dummy.m */,
+				CEB2DD5CA4A8BF07072145D416A276B4 /* Pods-CrossOverTest-frameworks.sh */,
+				3205EB26F38A8F0CD1B8A6105CD970C3 /* Pods-CrossOverTest-resources.sh */,
+				52F52A128F6C61A855D176CE04452F81 /* Pods-CrossOverTest-umbrella.h */,
+				66F4F15E26BB8F406E78AF510C30B9AF /* Pods-CrossOverTest.debug.xcconfig */,
+				22C76AC5B4B839F4D18DDB02F579CE8F /* Pods-CrossOverTest.release.xcconfig */,
+			);
+			name = "Pods-CrossOverTest";
+			path = "Target Support Files/Pods-CrossOverTest";
+			sourceTree = "<group>";
+		};
+		43E306523255283FCB1679037932C6D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE7615CF258C2B71714B6B5AD18B963B /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A682912FA60CD8FC66EEBF6EA6B2169 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5542AFBDFFE7D03D48C7786C4727599 /* CreditCardValidator */,
+				DD06DACA8D532E2BF66E0751DCF806E3 /* GoogleMaps */,
+				584F27978D04417A7B91A89DA1B3DBA8 /* GooglePlaces */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4D8BDC97E7D0B3B3D1B36DB20ED64D65 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				A0EE3BFF841A8F8181EAA10E364BF7B9 /* Frameworks */,
+				EEAE0F6C5AD0C5B2A2891EE063BEB08B /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		584F27978D04417A7B91A89DA1B3DBA8 /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				43E306523255283FCB1679037932C6D6 /* Frameworks */,
+				EAA5DB0F7CB9AD954776699587D3220A /* Resources */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		5CF55826BDFDB8BA96231ADE04509681 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C882FAB9CD3DAE52BB55EE58546ACD3 /* CreditCardValidator.framework */,
+				786BDD6866109FEF3F59CE88AC647AA4 /* Pods_CrossOverTest.framework */,
+				BEB31992BDAAA177D5E54BC721E3CE45 /* Pods_CrossOverTestTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4A682912FA60CD8FC66EEBF6EA6B2169 /* Pods */,
+				5CF55826BDFDB8BA96231ADE04509681 /* Products */,
+				34B2BBBB92BD4A49254E303E8CFE0E06 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A0EE3BFF841A8F8181EAA10E364BF7B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE7E0147FAD72BEEA03BD4DA835BF7CA /* GoogleMaps.framework */,
+				E4C552A1DB8CD9910212DEF53F55EB71 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5542AFBDFFE7D03D48C7786C4727599 /* CreditCardValidator */ = {
+			isa = PBXGroup;
+			children = (
+				0A9BE371EBF18A48F773815568323FE5 /* CreditCardValidationType.swift */,
+				AA636F759E50DC7B2C5E60C908DE36E8 /* CreditCardValidator.swift */,
+				E7D921E34C98FAAFE1C56E6024EDC471 /* Support Files */,
+			);
+			name = CreditCardValidator;
+			path = CreditCardValidator;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5928937E3BFA54E39667CC407E2F2DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAF3F2B3486640F982B6DC90888D6835 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD06DACA8D532E2BF66E0751DCF806E3 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				026CB8EC26458D7F90FB78D0C760E7B8 /* Base */,
+				4D8BDC97E7D0B3B3D1B36DB20ED64D65 /* Maps */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		E7D921E34C98FAAFE1C56E6024EDC471 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2AEC14403964BF2E0DC907820367DD3 /* CreditCardValidator.modulemap */,
+				FA94E36702D53FDD137B1240FA4E074A /* CreditCardValidator.xcconfig */,
+				EB8388EB188800661268772405BAA809 /* CreditCardValidator-dummy.m */,
+				7EFFE876B01FE4B2A4F5553A5EE960D6 /* CreditCardValidator-prefix.pch */,
+				42E78B0F200B58A85640FA64CBC40A98 /* CreditCardValidator-umbrella.h */,
+				F8F9DD826C37BD2F1F54908976CD587C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CreditCardValidator";
+			sourceTree = "<group>";
+		};
+		EAA5DB0F7CB9AD954776699587D3220A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E55D1472956999881EB380870F07BE0C /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EEAE0F6C5AD0C5B2A2891EE063BEB08B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ECF7B5BE3008369C5BA6C9CB784A788B /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F97BFEDEB20280C792C5143BF5209E14 /* Pods-CrossOverTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFD3CCBFA45F2B3ADDD24C58C82EB132 /* Info.plist */,
+				1C9A6EA6822FAB7794F4AF059CD02859 /* Pods-CrossOverTestTests.modulemap */,
+				F27A584DC99A8F9F9D122964102CFA55 /* Pods-CrossOverTestTests-acknowledgements.markdown */,
+				315DB39FA809E2184ED375025BD5BFB2 /* Pods-CrossOverTestTests-acknowledgements.plist */,
+				E3FAFF8024696220B4A57D187E333A33 /* Pods-CrossOverTestTests-dummy.m */,
+				91ED18C2B36CBE6D4EBD350EB396559B /* Pods-CrossOverTestTests-frameworks.sh */,
+				390D51EB101F74E855BE0C36C9BB114C /* Pods-CrossOverTestTests-resources.sh */,
+				D2F03E946DCEEAB22663C3DCBC37BE62 /* Pods-CrossOverTestTests-umbrella.h */,
+				98AEA3B491B0AE870D1AA2817E9A0647 /* Pods-CrossOverTestTests.debug.xcconfig */,
+				1C82DD70BC9C082BE152BF00EE4D6B58 /* Pods-CrossOverTestTests.release.xcconfig */,
+			);
+			name = "Pods-CrossOverTestTests";
+			path = "Target Support Files/Pods-CrossOverTestTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		50266478ABC469C09664A0B0267F711D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD9C21082AC4568F0966B3A16F47381F /* Pods-CrossOverTestTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7FFA0352DD50D880491B383E3302F27 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D47B4DD7492B334977FD0DA39D6C2C87 /* CreditCardValidator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62A466EFF44C8F0D307673AB9A369E7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EF0F6A7E4F253350D767E0DFA914291 /* Pods-CrossOverTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		06DACF8DBF00078CC427153B4F5DE848 /* CreditCardValidator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C35F825297840DA866D0F9AE9B4ED61 /* Build configuration list for PBXNativeTarget "CreditCardValidator" */;
+			buildPhases = (
+				897D026FB45E156CC1249D5B990096FD /* Sources */,
+				C954A796CFEA5E9944C59F852C549E06 /* Frameworks */,
+				A7FFA0352DD50D880491B383E3302F27 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CreditCardValidator;
+			productName = CreditCardValidator;
+			productReference = 3C882FAB9CD3DAE52BB55EE58546ACD3 /* CreditCardValidator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		305EF0D250083F6C115DD6FE0FC33344 /* Pods-CrossOverTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC815B26F8582F49FE0A5E64AE819FC2 /* Build configuration list for PBXNativeTarget "Pods-CrossOverTest" */;
+			buildPhases = (
+				9CEE3EA021431E198E2D472F1FA32D81 /* Sources */,
+				DAA122899EC84F2D79DDB7C971871DF1 /* Frameworks */,
+				B62A466EFF44C8F0D307673AB9A369E7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				878EE15F11B9C8982F9EC34102800F55 /* PBXTargetDependency */,
+			);
+			name = "Pods-CrossOverTest";
+			productName = "Pods-CrossOverTest";
+			productReference = 786BDD6866109FEF3F59CE88AC647AA4 /* Pods_CrossOverTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7FFE52304C94590C0C9EA00277AB5E4D /* Pods-CrossOverTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7A2C6C265E5F552E279544CD5F30CB5 /* Build configuration list for PBXNativeTarget "Pods-CrossOverTestTests" */;
+			buildPhases = (
+				6B15FD99BEC775F5C25643015C47A5BE /* Sources */,
+				551A5E06039828CCCEB1D9C55AD3254F /* Frameworks */,
+				50266478ABC469C09664A0B0267F711D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FB9F803B068B56941F576AEC10A669B /* PBXTargetDependency */,
+			);
+			name = "Pods-CrossOverTestTests";
+			productName = "Pods-CrossOverTestTests";
+			productReference = BEB31992BDAAA177D5E54BC721E3CE45 /* Pods_CrossOverTestTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5CF55826BDFDB8BA96231ADE04509681 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06DACF8DBF00078CC427153B4F5DE848 /* CreditCardValidator */,
+				305EF0D250083F6C115DD6FE0FC33344 /* Pods-CrossOverTest */,
+				7FFE52304C94590C0C9EA00277AB5E4D /* Pods-CrossOverTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B15FD99BEC775F5C25643015C47A5BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A98AA1C5FA43E2090F72CB71D5E500A5 /* Pods-CrossOverTestTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		897D026FB45E156CC1249D5B990096FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				606BAE40990ACAB42D76DFE61C829702 /* CreditCardValidationType.swift in Sources */,
+				EC4318D7D9B53CC37DC981DC9023B4E7 /* CreditCardValidator-dummy.m in Sources */,
+				E3925EDFF1A6A896FFCA3EAA3830A343 /* CreditCardValidator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CEE3EA021431E198E2D472F1FA32D81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4CEC74B1F948C14564CB3C81B795A80 /* Pods-CrossOverTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FB9F803B068B56941F576AEC10A669B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CreditCardValidator;
+			target = 06DACF8DBF00078CC427153B4F5DE848 /* CreditCardValidator */;
+			targetProxy = 30C9853F121E5E0205462FD18B856BF4 /* PBXContainerItemProxy */;
+		};
+		878EE15F11B9C8982F9EC34102800F55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CreditCardValidator;
+			target = 06DACF8DBF00078CC427153B4F5DE848 /* CreditCardValidator */;
+			targetProxy = E08F5B1766742C820B5DFE591D1F80DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		554EA90EF358F628495B10B43B438A13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C82DD70BC9C082BE152BF00EE4D6B58 /* Pods-CrossOverTestTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CrossOverTestTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CrossOverTestTests/Pods-CrossOverTestTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CrossOverTestTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5AC2D6CC0DC3DC72390E2598623219C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA94E36702D53FDD137B1240FA4E074A /* CreditCardValidator.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CreditCardValidator/CreditCardValidator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CreditCardValidator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CreditCardValidator/CreditCardValidator.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CreditCardValidator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9CDB81054AC83CC770EEF8ADF1ABCCEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22C76AC5B4B839F4D18DDB02F579CE8F /* Pods-CrossOverTest.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CrossOverTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CrossOverTest/Pods-CrossOverTest.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CrossOverTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A2CE61F35753F80D4A957645B391A2D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA94E36702D53FDD137B1240FA4E074A /* CreditCardValidator.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CreditCardValidator/CreditCardValidator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CreditCardValidator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CreditCardValidator/CreditCardValidator.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CreditCardValidator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB72F32115627FAB112E6C183EBDE443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66F4F15E26BB8F406E78AF510C30B9AF /* Pods-CrossOverTest.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CrossOverTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CrossOverTest/Pods-CrossOverTest.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CrossOverTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BAEE83F1AEC624A0F3C966E07209BE8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98AEA3B491B0AE870D1AA2817E9A0647 /* Pods-CrossOverTestTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CrossOverTestTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CrossOverTestTests/Pods-CrossOverTestTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CrossOverTestTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ED4FC68AB2A4E06C718CFF338F6F156B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */,
+				ED4FC68AB2A4E06C718CFF338F6F156B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C35F825297840DA866D0F9AE9B4ED61 /* Build configuration list for PBXNativeTarget "CreditCardValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2CE61F35753F80D4A957645B391A2D6 /* Debug */,
+				5AC2D6CC0DC3DC72390E2598623219C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC815B26F8582F49FE0A5E64AE819FC2 /* Build configuration list for PBXNativeTarget "Pods-CrossOverTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB72F32115627FAB112E6C183EBDE443 /* Debug */,
+				9CDB81054AC83CC770EEF8ADF1ABCCEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7A2C6C265E5F552E279544CD5F30CB5 /* Build configuration list for PBXNativeTarget "Pods-CrossOverTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAEE83F1AEC624A0F3C966E07209BE8D /* Debug */,
+				554EA90EF358F628495B10B43B438A13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

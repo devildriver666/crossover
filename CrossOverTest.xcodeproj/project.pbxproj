@@ -1,0 +1,700 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39B138751DE3606B00993BAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B138741DE3606B00993BAC /* AppDelegate.swift */; };
+		39B138771DE3606B00993BAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B138761DE3606B00993BAC /* ViewController.swift */; };
+		39B1387A1DE3606B00993BAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39B138781DE3606B00993BAC /* Main.storyboard */; };
+		39B1387C1DE3606B00993BAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39B1387B1DE3606B00993BAC /* Assets.xcassets */; };
+		39B1387F1DE3606B00993BAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39B1387D1DE3606B00993BAC /* LaunchScreen.storyboard */; };
+		39B1388A1DE3606B00993BAC /* CrossOverTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B138891DE3606B00993BAC /* CrossOverTestTests.swift */; };
+		39B138951DE3606B00993BAC /* CrossOverTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B138941DE3606B00993BAC /* CrossOverTestUITests.swift */; };
+		39B138A31DE36CE400993BAC /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B138A21DE36CE400993BAC /* SignUpViewController.swift */; };
+		39B138A51DE3749100993BAC /* NetworkingFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B138A41DE3749100993BAC /* NetworkingFactory.swift */; };
+		39B138A71DE3880B00993BAC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B138A61DE3880A00993BAC /* Constants.swift */; };
+		39B138A91DE393EF00993BAC /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B138A81DE393EF00993BAC /* PlacesViewController.swift */; };
+		39B138AB1DE39D7400993BAC /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B138AA1DE39D7400993BAC /* Reachability.swift */; };
+		39B138AD1DE4353800993BAC /* PlacesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B138AC1DE4353800993BAC /* PlacesModel.swift */; };
+		39B138AF1DE43FDB00993BAC /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B138AE1DE43FDB00993BAC /* LocationModel.swift */; };
+		39B138B11DE4631300993BAC /* CreditCardInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B138B01DE4631300993BAC /* CreditCardInformationViewController.swift */; };
+		4E6822D2D4C6E6B8B8BF4901 /* Pods_CrossOverTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AFB4D3D7DAB108FFB717D0 /* Pods_CrossOverTestTests.framework */; };
+		739CF9081176395C9C2046BC /* Pods_CrossOverTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E1916B35E9912B58ECC8257 /* Pods_CrossOverTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39B138861DE3606B00993BAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39B138691DE3606B00993BAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39B138701DE3606B00993BAC;
+			remoteInfo = CrossOverTest;
+		};
+		39B138911DE3606B00993BAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39B138691DE3606B00993BAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39B138701DE3606B00993BAC;
+			remoteInfo = CrossOverTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F1FF36F641B64433B9D9404 /* Pods-CrossOverTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrossOverTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrossOverTestTests/Pods-CrossOverTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		39B138711DE3606B00993BAC /* CrossOverTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrossOverTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39B138741DE3606B00993BAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39B138761DE3606B00993BAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		39B138791DE3606B00993BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39B1387B1DE3606B00993BAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39B1387E1DE3606B00993BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39B138801DE3606B00993BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39B138851DE3606B00993BAC /* CrossOverTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrossOverTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39B138891DE3606B00993BAC /* CrossOverTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossOverTestTests.swift; sourceTree = "<group>"; };
+		39B1388B1DE3606B00993BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39B138901DE3606B00993BAC /* CrossOverTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrossOverTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39B138941DE3606B00993BAC /* CrossOverTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossOverTestUITests.swift; sourceTree = "<group>"; };
+		39B138961DE3606B00993BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39B138A21DE36CE400993BAC /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		39B138A41DE3749100993BAC /* NetworkingFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingFactory.swift; sourceTree = "<group>"; };
+		39B138A61DE3880A00993BAC /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		39B138A81DE393EF00993BAC /* PlacesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
+		39B138AA1DE39D7400993BAC /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		39B138AC1DE4353800993BAC /* PlacesModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesModel.swift; sourceTree = "<group>"; };
+		39B138AE1DE43FDB00993BAC /* LocationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		39B138B01DE4631300993BAC /* CreditCardInformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCardInformationViewController.swift; sourceTree = "<group>"; };
+		5E2EC586864FA90D7A1F3FA0 /* Pods-CrossOverTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrossOverTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrossOverTest/Pods-CrossOverTest.debug.xcconfig"; sourceTree = "<group>"; };
+		7482CA0535D8FBA2F876EBBE /* Pods-CrossOverTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrossOverTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrossOverTest/Pods-CrossOverTest.release.xcconfig"; sourceTree = "<group>"; };
+		79AFB4D3D7DAB108FFB717D0 /* Pods_CrossOverTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrossOverTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1916B35E9912B58ECC8257 /* Pods_CrossOverTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrossOverTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB11FCF7E3DA903869CC0835 /* Pods_CrossOverTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrossOverTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F64A974CAF52CFF93B934C6D /* Pods-CrossOverTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrossOverTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrossOverTestTests/Pods-CrossOverTestTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39B1386E1DE3606B00993BAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				739CF9081176395C9C2046BC /* Pods_CrossOverTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39B138821DE3606B00993BAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E6822D2D4C6E6B8B8BF4901 /* Pods_CrossOverTestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39B1388D1DE3606B00993BAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E78419C9A133A55A48B7365 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E1916B35E9912B58ECC8257 /* Pods_CrossOverTest.framework */,
+				79AFB4D3D7DAB108FFB717D0 /* Pods_CrossOverTestTests.framework */,
+				DB11FCF7E3DA903869CC0835 /* Pods_CrossOverTestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39B138681DE3606B00993BAC = {
+			isa = PBXGroup;
+			children = (
+				39B138731DE3606B00993BAC /* CrossOverTest */,
+				39B138881DE3606B00993BAC /* CrossOverTestTests */,
+				39B138931DE3606B00993BAC /* CrossOverTestUITests */,
+				39B138721DE3606B00993BAC /* Products */,
+				8FC94191EE84C02BCFC18424 /* Pods */,
+				1E78419C9A133A55A48B7365 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		39B138721DE3606B00993BAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39B138711DE3606B00993BAC /* CrossOverTest.app */,
+				39B138851DE3606B00993BAC /* CrossOverTestTests.xctest */,
+				39B138901DE3606B00993BAC /* CrossOverTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39B138731DE3606B00993BAC /* CrossOverTest */ = {
+			isa = PBXGroup;
+			children = (
+				39B138741DE3606B00993BAC /* AppDelegate.swift */,
+				39B138761DE3606B00993BAC /* ViewController.swift */,
+				39B138A21DE36CE400993BAC /* SignUpViewController.swift */,
+				39B138A81DE393EF00993BAC /* PlacesViewController.swift */,
+				39B138A41DE3749100993BAC /* NetworkingFactory.swift */,
+				39B138B01DE4631300993BAC /* CreditCardInformationViewController.swift */,
+				39B138781DE3606B00993BAC /* Main.storyboard */,
+				39B1387B1DE3606B00993BAC /* Assets.xcassets */,
+				39B1387D1DE3606B00993BAC /* LaunchScreen.storyboard */,
+				39B138801DE3606B00993BAC /* Info.plist */,
+				39B138A61DE3880A00993BAC /* Constants.swift */,
+				39B138AA1DE39D7400993BAC /* Reachability.swift */,
+				39B138AC1DE4353800993BAC /* PlacesModel.swift */,
+				39B138AE1DE43FDB00993BAC /* LocationModel.swift */,
+			);
+			path = CrossOverTest;
+			sourceTree = "<group>";
+		};
+		39B138881DE3606B00993BAC /* CrossOverTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				39B138891DE3606B00993BAC /* CrossOverTestTests.swift */,
+				39B1388B1DE3606B00993BAC /* Info.plist */,
+			);
+			path = CrossOverTestTests;
+			sourceTree = "<group>";
+		};
+		39B138931DE3606B00993BAC /* CrossOverTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				39B138941DE3606B00993BAC /* CrossOverTestUITests.swift */,
+				39B138961DE3606B00993BAC /* Info.plist */,
+			);
+			path = CrossOverTestUITests;
+			sourceTree = "<group>";
+		};
+		8FC94191EE84C02BCFC18424 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E2EC586864FA90D7A1F3FA0 /* Pods-CrossOverTest.debug.xcconfig */,
+				7482CA0535D8FBA2F876EBBE /* Pods-CrossOverTest.release.xcconfig */,
+				0F1FF36F641B64433B9D9404 /* Pods-CrossOverTestTests.debug.xcconfig */,
+				F64A974CAF52CFF93B934C6D /* Pods-CrossOverTestTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39B138701DE3606B00993BAC /* CrossOverTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39B138991DE3606B00993BAC /* Build configuration list for PBXNativeTarget "CrossOverTest" */;
+			buildPhases = (
+				B51A2B97232A882C0898EC7E /* [CP] Check Pods Manifest.lock */,
+				39B1386D1DE3606B00993BAC /* Sources */,
+				39B1386E1DE3606B00993BAC /* Frameworks */,
+				39B1386F1DE3606B00993BAC /* Resources */,
+				0326AE635369E7FAEB267864 /* [CP] Embed Pods Frameworks */,
+				C7255E47AEDA713DAE79C246 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrossOverTest;
+			productName = CrossOverTest;
+			productReference = 39B138711DE3606B00993BAC /* CrossOverTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39B138841DE3606B00993BAC /* CrossOverTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39B1389C1DE3606B00993BAC /* Build configuration list for PBXNativeTarget "CrossOverTestTests" */;
+			buildPhases = (
+				A8DBA669BABC4F00172926D1 /* [CP] Check Pods Manifest.lock */,
+				39B138811DE3606B00993BAC /* Sources */,
+				39B138821DE3606B00993BAC /* Frameworks */,
+				39B138831DE3606B00993BAC /* Resources */,
+				E588DF1F98284CCE6547C87F /* [CP] Embed Pods Frameworks */,
+				7BE15DA53713E2919726EFA6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39B138871DE3606B00993BAC /* PBXTargetDependency */,
+			);
+			name = CrossOverTestTests;
+			productName = CrossOverTestTests;
+			productReference = 39B138851DE3606B00993BAC /* CrossOverTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39B1388F1DE3606B00993BAC /* CrossOverTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39B1389F1DE3606B00993BAC /* Build configuration list for PBXNativeTarget "CrossOverTestUITests" */;
+			buildPhases = (
+				39B1388C1DE3606B00993BAC /* Sources */,
+				39B1388D1DE3606B00993BAC /* Frameworks */,
+				39B1388E1DE3606B00993BAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39B138921DE3606B00993BAC /* PBXTargetDependency */,
+			);
+			name = CrossOverTestUITests;
+			productName = CrossOverTestUITests;
+			productReference = 39B138901DE3606B00993BAC /* CrossOverTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39B138691DE3606B00993BAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = crossover;
+				TargetAttributes = {
+					39B138701DE3606B00993BAC = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					39B138841DE3606B00993BAC = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 39B138701DE3606B00993BAC;
+					};
+					39B1388F1DE3606B00993BAC = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 39B138701DE3606B00993BAC;
+					};
+				};
+			};
+			buildConfigurationList = 39B1386C1DE3606B00993BAC /* Build configuration list for PBXProject "CrossOverTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39B138681DE3606B00993BAC;
+			productRefGroup = 39B138721DE3606B00993BAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39B138701DE3606B00993BAC /* CrossOverTest */,
+				39B138841DE3606B00993BAC /* CrossOverTestTests */,
+				39B1388F1DE3606B00993BAC /* CrossOverTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39B1386F1DE3606B00993BAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39B1387F1DE3606B00993BAC /* LaunchScreen.storyboard in Resources */,
+				39B1387C1DE3606B00993BAC /* Assets.xcassets in Resources */,
+				39B1387A1DE3606B00993BAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39B138831DE3606B00993BAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39B1388E1DE3606B00993BAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0326AE635369E7FAEB267864 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrossOverTest/Pods-CrossOverTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BE15DA53713E2919726EFA6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrossOverTestTests/Pods-CrossOverTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8DBA669BABC4F00172926D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B51A2B97232A882C0898EC7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C7255E47AEDA713DAE79C246 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrossOverTest/Pods-CrossOverTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E588DF1F98284CCE6547C87F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrossOverTestTests/Pods-CrossOverTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39B1386D1DE3606B00993BAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39B138B11DE4631300993BAC /* CreditCardInformationViewController.swift in Sources */,
+				39B138AB1DE39D7400993BAC /* Reachability.swift in Sources */,
+				39B138A91DE393EF00993BAC /* PlacesViewController.swift in Sources */,
+				39B138A71DE3880B00993BAC /* Constants.swift in Sources */,
+				39B138A31DE36CE400993BAC /* SignUpViewController.swift in Sources */,
+				39B138AF1DE43FDB00993BAC /* LocationModel.swift in Sources */,
+				39B138771DE3606B00993BAC /* ViewController.swift in Sources */,
+				39B138AD1DE4353800993BAC /* PlacesModel.swift in Sources */,
+				39B138A51DE3749100993BAC /* NetworkingFactory.swift in Sources */,
+				39B138751DE3606B00993BAC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39B138811DE3606B00993BAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39B1388A1DE3606B00993BAC /* CrossOverTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39B1388C1DE3606B00993BAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39B138951DE3606B00993BAC /* CrossOverTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39B138871DE3606B00993BAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39B138701DE3606B00993BAC /* CrossOverTest */;
+			targetProxy = 39B138861DE3606B00993BAC /* PBXContainerItemProxy */;
+		};
+		39B138921DE3606B00993BAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39B138701DE3606B00993BAC /* CrossOverTest */;
+			targetProxy = 39B138911DE3606B00993BAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39B138781DE3606B00993BAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39B138791DE3606B00993BAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39B1387D1DE3606B00993BAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39B1387E1DE3606B00993BAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39B138971DE3606B00993BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39B138981DE3606B00993BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39B1389A1DE3606B00993BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E2EC586864FA90D7A1F3FA0 /* Pods-CrossOverTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CrossOverTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = crossover.CrossOverTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		39B1389B1DE3606B00993BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7482CA0535D8FBA2F876EBBE /* Pods-CrossOverTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CrossOverTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = crossover.CrossOverTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		39B1389D1DE3606B00993BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F1FF36F641B64433B9D9404 /* Pods-CrossOverTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CrossOverTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = crossover.CrossOverTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrossOverTest.app/CrossOverTest";
+			};
+			name = Debug;
+		};
+		39B1389E1DE3606B00993BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F64A974CAF52CFF93B934C6D /* Pods-CrossOverTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CrossOverTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = crossover.CrossOverTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrossOverTest.app/CrossOverTest";
+			};
+			name = Release;
+		};
+		39B138A01DE3606B00993BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CrossOverTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = crossover.CrossOverTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CrossOverTest;
+			};
+			name = Debug;
+		};
+		39B138A11DE3606B00993BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CrossOverTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = crossover.CrossOverTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CrossOverTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39B1386C1DE3606B00993BAC /* Build configuration list for PBXProject "CrossOverTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39B138971DE3606B00993BAC /* Debug */,
+				39B138981DE3606B00993BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39B138991DE3606B00993BAC /* Build configuration list for PBXNativeTarget "CrossOverTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39B1389A1DE3606B00993BAC /* Debug */,
+				39B1389B1DE3606B00993BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39B1389C1DE3606B00993BAC /* Build configuration list for PBXNativeTarget "CrossOverTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39B1389D1DE3606B00993BAC /* Debug */,
+				39B1389E1DE3606B00993BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39B1389F1DE3606B00993BAC /* Build configuration list for PBXNativeTarget "CrossOverTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39B138A01DE3606B00993BAC /* Debug */,
+				39B138A11DE3606B00993BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39B138691DE3606B00993BAC /* Project object */;
+}
